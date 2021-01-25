@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.input {
+    margin: 10px;
+    width: 230px;   
+}
+
+.close {
+    display: none;
+}
+
+.botao {
+    margin-left: 10px;
+}
+
+
+/* SE O ALUNO FOR REPROVADO */
+.reprovado {
+    color: red;
+}
+
+/* SE O ALUNO FOR APROVADO */
+.aprovado {
+   color: green;
+}
+
+
+/* REMOVE AS SETAS DOS INPUTS DE NUMEROS */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
